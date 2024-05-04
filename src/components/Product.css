@@ -1,0 +1,138 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.jumbotron {
+  padding: 20px;
+  width: 90%;
+  max-width: 1000px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+}
+
+.product-display {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-image {
+  width: 300px;  
+  height: 300px; 
+  object-fit: cover;  
+  border-radius: 8px;
+}
+
+.product-details {
+  flex: 1;
+  padding-left: 20px;
+}
+
+.product-title {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.product-description {
+  font-size: 18px;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.product-interactions {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.quantity-selector {
+  margin-right: 15px;
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.pricing {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.price {
+  font-size: 18px;
+  color: #f5713c;
+  margin-left: 85px;
+  font-weight: 700;
+}
+
+.remove-btn {
+  align-self: flex-end;  
+  margin-top: auto;  
+  padding: 8px 16px;
+  color: white;
+  background-color: #f51414;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.price-summary {
+  align-self: flex-end;
+}
+
+.price-summary p {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  font-size: 16px;
+  color: #333;
+}
+
+.price-summary span {
+  font-weight: bold;
+  color: #FF4500;
+}
+
+.product-details {
+  flex: 1;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;  /* Ensures vertical layout */
+  justify-content: space-between;  /* Spreads content vertically */
+}
+
+.product-interactions {
+  align-self: stretch;
+}
+
+.remove-btn {
+  align-self: flex-end;  
+  margin-top: auto; 
+  padding: 8px 16px;
+  color: white;
+  background-color: #FF4500;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+
+.price-summary {
+  align-self: flex-end;
+  width: 100%;  
+}
+
