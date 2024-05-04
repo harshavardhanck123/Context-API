@@ -1,4 +1,4 @@
-```markdown
+
 # React useContext Cart Management App
 
 This React application demonstrates the use of the `useContext` hook combined with the `useReducer` hook to manage and manipulate cart data. The project fetches JSON data from a provided URL to create a dynamic cart page displaying each item's price, quantity, and total amount, with the ability to adjust quantities interactively.
@@ -15,7 +15,7 @@ Ensure you have the following installed:
 
 ### Installation
 
-To set up the project locally, follow these steps:
+To set up the project locally, follow these steps:   
 
 1. **Clone the repository:**
    ```bash
