@@ -59,13 +59,9 @@ This will launch the app in development mode. Open [http://localhost:3000](http:
 
 Please read [CONTRIBUTING.md](https://github.com/your_username/react-usecontext-cart/blob/master/CONTRIBUTING.md) for the process for submitting pull requests to us.
 
-## Versioning
-
-For the versions available, see the [tags on this repository](https://github.com/your_username/react-usecontext-cart/tags).
-
 ## Authors
 
-- **Your Name** - *Initial Work* - [YourUsername](https://github.com/YourUsername)
+- **Harshavardhan** - *Initial Work* - [harshavardhanck123](https://github.com/harshavardhanck123)
 
 See also the list of [contributors](https://github.com/your_username/react-usecontext-cart/contributors) who participated in this project.
 
